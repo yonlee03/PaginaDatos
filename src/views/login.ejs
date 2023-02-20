@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+    <%- include('partials/head') %>
+    <title><%= title %></title>
+</head>
+<body class="body1">
+    <main class="form-signin w-300 m-auto">
+      <form action="/auth" method="post">
+        <img class="mb-4" src="jv.jpg" alt="" width="72" height="57">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    
+        <div class="form-floating">
+          <input type="text" class="form-control" name="user" id="floatingInput" placeholder="userexample" required>
+          <label for="floatingInput">User</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" name="pass" id="floatingPassword" placeholder="Password" required>
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit" >Sign in</button>
+        <hr>
+        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+        <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+        <hr class="my-4">
+        <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+        <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+          <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+          Sign up with Twitter
+        </button>
+        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+          <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+          Sign up with Facebook
+        </button>
+        <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+          <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+          Sign up with GitHub
+        </button>
+      </form>
+    </div>
+    </div>
+    </div>
+    </div>
+      </form>
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+      </body>
+      <footer>
+        <div>
+            <%- include('partials/footer') %>
+        </div>
+      </footer>
+      
+      
+</html>

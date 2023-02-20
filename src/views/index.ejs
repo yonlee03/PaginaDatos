@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head') %>
+    <title>Mango news</title>
+</head>
+
+
+<body>
+    <div class="content">
+        <%- include('partials/nav') %>
+        <div class="container-all" id="move-content">
+
+            <div class="container-post">
+               
+                <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+                <input type="radio" id="PUZZLES" name="categories" value="PUZZLES">
+                <input type="radio" id="ACCION" name="categories" value="ACCION">
+                <input type="radio" id="AVENTURAS" name="categories" value="AVENTURAS">
+                <input type="radio" id="INDIES" name="categories" value="INDIES">
+                <input type="radio" id="FPS" name="categories" value="FPS">
+                <input type="radio" id="PLATAFORMAS" name="categories" value="PLATAFORMAS">
+                <input type="radio" id="RPG" name="categories" value="RPG">
+        
+                <div class="container-category">
+                    <label for="TODOS">TODOS</label>
+                    <label for="PUZZLES">PUZZLES</label>
+                    <label for="ACCION">ACCION</label>
+                    <label for="AVENTURAS">AVENTURAS</label>
+                    <label for="INDIES">INDIES</label>
+                    <label for="FPS">FPS</label>
+                    <label for="PLATAFORMAS">PLATAFORMAS</label>
+                    <label for="RPG">RPG</label>
+                </div>
+        
+        
+        
+                <div class="posts">
+                    
+                    <div class="post" data-category="PUZZLES ">
+                        <div class="ctn-img"><a href=""><img src="https://1.bp.blogspot.com/-MYyDCzNUc64/YJ6nS6WHvwI/AAAAAAAArk4/yoThOPojCz0we55tVF9bTaY93XcK24-PQCNcBGAsYHQ/s900/The-Witness.jpg" alt=""></a></div>
+                    </div>
+        
+                    <div class="post" data-category="PUZZLES ACCION">
+                        <div class="ctn-img"><a href=""><img src="https://imgs.hipertextual.com/wp-content/uploads/2022/09/portal_rtx_portada-scaled.jpg" alt=""></a></div>
+                    </div>
+        
+                    <div class="post" data-category="ACCION">
+                        <div class="ctn-img"><a href=""><img src="https://i.blogs.es/09a281/uncharted400/1366_2000.jpg" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="AVENTURAS INDIES">
+                        <div class="ctn-img"><a href=""><img src="https://i.blogs.es/846500/290118-celeste/840_560.jpg" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="PLATAFORMAS AVENTURAS">
+                        <div class="ctn-img"><a href=""><img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2018/11/new-super-mario-bros-deluxe.jpg?itok=2IKQxv5j" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="PLATAFORMAS INDIES">
+                        <div class="ctn-img"><a href=""><img src="https://hb.imgix.net/91aaf324e961b2b9cf3b35bfb8585d7247b67af0.jpg?auto=compress,format&fit=crop&h=353&w=616&s=c6a24fbf38c270c16c84a6d85a2ba531" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="FPS ACCION">
+                        <div class="ctn-img"><a href=""><img src="https://cdn.akamai.steamstatic.com/steam/apps/42700/capsule_616x353.jpg?t=1646763435" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="INDIES">
+                        <div class="ctn-img"><a href=""><img src="https://cdn.akamai.steamstatic.com/steam/apps/1145360/capsule_616x353.jpg?t=1670649855" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="ACCION">
+                        <div class="ctn-img"><a href=""><img src="https://i.blogs.es/4c3cf2/godofwarragnarok/840_560.jpeg" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="PLATAFORMAS INDIES">
+                        <div class="ctn-img"><a href=""><img src="https://www.cnet.com/a/img/resize/eb8cb31b670424a241de7cefd821699acc62d445/hub/2022/11/29/51b15a38-0fa3-4ea7-81eb-4c6c80d87297/dead-cells-key-art.jpg?auto=webp&fit=crop&height=1200&width=1200" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="RPG">
+                        <div class="ctn-img"><a href=""><img src="https://www.somosxbox.com/wp-content/uploads/2022/11/Final-Fantasy-XVI-en-Xbox.jpg" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="RPG">
+                        <div class="ctn-img"><a href=""><img src="https://webgames.host/uploads/2017/10/pokemon-heartgold-version.jpg" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="FPS">
+                        <div class="ctn-img"><a href=""><img src="https://cdn.akamai.steamstatic.com/steam/apps/782330/capsule_616x353.jpg?t=1639072952" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="RPG ACCION">
+                        <div class="ctn-img"><a href=""><img src="https://p325k7wa.twic.pics/high/elden-ring/elden-ring/04-retailers/00-beautyshots/04-Standard/ER_standard_keyart.jpg?twic=v1/step=10/quality=80/max=760" alt=""></a></div>
+                    </div>
+                    <div class="post" data-category="AVENTURAS">
+                        <div class="ctn-img"><a href=""><img src="https://s2.gaming-cdn.com/images/products/1744/616x353/red-dead-redemption-2-xbox-one-xbox-series-x-s-xbox-one-xbox-series-x-s-juego-microsoft-store-europe-cover.jpg?v=1655368923" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        <%- include('partials/footer') %>
+    </div>
+</body>
+
+</html>
